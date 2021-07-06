@@ -11,7 +11,8 @@ namespace Practica1.DataAccessLayer
         private ApplicationDbETKCContext _context = new ApplicationDbETKCContext();
 
         public IQueryable<Applicant> Applicants => _context.Applicants;
-        
+
+
         public void AddApplicant(Request request)
         {
             string PD = request.ApplicantName + " " + request.PhoneNumber + " " + request.Email;

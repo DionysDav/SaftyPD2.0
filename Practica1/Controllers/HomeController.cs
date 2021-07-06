@@ -14,7 +14,7 @@ namespace Practica1.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private PostgreSqlEtkcRepository _etkcRepository;
-        public PostgreSql604Repository _repository604;
+        private PostgreSql604Repository _repository604;
         
         public HomeController(ILogger<HomeController> logger, PostgreSql604Repository postgreSql604Repository, PostgreSqlEtkcRepository postgreSqlEtkcRepository)
         {
