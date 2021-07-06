@@ -1,0 +1,65 @@
+@model Practica1.Models.Request
+
+@{
+    ViewData["Title"] = "Organization";
+}
+
+<h1>Organization</h1>
+
+<h4>Request</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Organization">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ApplicantName" class="control-label"></label>
+                <input asp-for="ApplicantName" class="form-control"/>
+                <span asp-validation-for="ApplicantName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" class="form-control"/>
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control"/>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PlanVisitDate" class="control-label"></label>
+                <input asp-for="PlanVisitDate" class="form-control"/>
+                <span asp-validation-for="PlanVisitDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PlanVisitTime" class="control-label"></label>
+                <input asp-for="PlanVisitTime" class="form-control"/>
+                <span asp-validation-for="PlanVisitTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PersonCountInGroup" class="control-label"></label>
+                <input asp-for="PersonCountInGroup" class="form-control"/>
+                <span asp-validation-for="PersonCountInGroup" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsConsentedForProcessingOfPD"/> @Html.DisplayNameFor(model => model.IsConsentedForProcessingOfPD)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="EventId" class="control-label"></label>
+                <input asp-for="EventId" class="form-control"/>
+                <span asp-validation-for="EventId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

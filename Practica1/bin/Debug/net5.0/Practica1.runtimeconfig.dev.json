@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/simfonia/.dotnet/store/|arch|/|tfm|",
+      "/Users/simfonia/.nuget/packages"
+    ]
+  }
+}
