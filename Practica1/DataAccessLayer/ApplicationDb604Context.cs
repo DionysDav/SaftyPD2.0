@@ -10,7 +10,7 @@ namespace Practica1.DataAccessLayer
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=<ip>;Port=5432;Database=<604 DB name>;Username=<uid>;Password=<psw>");
+            optionsBuilder.UseNpgsql("Host=192.168.88.3;Port=5432;Database=db604;Username=forEtkc;Password=123ewq");
         }
     }
 }

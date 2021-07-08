@@ -48,7 +48,7 @@ namespace Practica1.Controllers
         public IActionResult Organization(Request request)
         {
             _etkcRepository.AddApplicant(request);
-            _repository604.AddApplicant(request);
+            //_repository604.AddApplicant(request);
             
             return View("Success");
         }

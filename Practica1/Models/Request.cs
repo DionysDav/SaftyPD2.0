@@ -5,6 +5,7 @@ namespace Practica1.Models
 {
     public class Request
     {
+        public int Id { get; set; }
         public string ApplicantName { get; set; } //фио
         public string PhoneNumber { get; set; } // тел
         public string Email { get; set; } //почта

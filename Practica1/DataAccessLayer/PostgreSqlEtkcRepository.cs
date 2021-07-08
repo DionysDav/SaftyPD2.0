@@ -23,6 +23,7 @@ namespace Practica1.DataAccessLayer
             {
                 UserIdent = HashPD,
                 PlanVisitDate = request.PlanVisitDate,
+                PlanVisitTime = request.PlanVisitTime,
                 PersonCountInGroup = request.PersonCountInGroup,
                 IsConsentedForProcessingOfPD = request.IsConsentedForProcessingOfPD,
                 EventId = request.EventId,

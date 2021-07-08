@@ -11,6 +11,7 @@ namespace Practica1.DataAccessLayer
 
         public void AddApplicant(Request request)
         {
+            
             _context.Add(request);
             _context.SaveChanges();
         }

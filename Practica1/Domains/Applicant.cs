@@ -4,6 +4,7 @@ namespace Practica1.Domains
 {
     public class Applicant
     {
+        public int Id { get; set; }
         public string UserIdent { get; set; }
         public DateTime PlanVisitDate { get; set; } //дата
         public string PlanVisitTime { get; set; } //11.00 / 13.00
