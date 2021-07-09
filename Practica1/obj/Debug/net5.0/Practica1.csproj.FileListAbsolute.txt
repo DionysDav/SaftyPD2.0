@@ -123,3 +123,11 @@
 /Users/simfonia/Desktop/net/Practica1/Practica1/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/simfonia/Desktop/net/Practica1/Practica1/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
 /Users/simfonia/Desktop/net/Practica1/Practica1/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/simfonia/Desktop/net/Practica1/Practica1/bin/Debug/net5.0/Azure.Core.dll
+/Users/simfonia/Desktop/net/Practica1/Practica1/bin/Debug/net5.0/System.Data.SqlClient.dll
+/Users/simfonia/Desktop/net/Practica1/Practica1/bin/Debug/net5.0/System.Memory.Data.dll
+/Users/simfonia/Desktop/net/Practica1/Practica1/bin/Debug/net5.0/runtimes/win-arm64/native/sni.dll
+/Users/simfonia/Desktop/net/Practica1/Practica1/bin/Debug/net5.0/runtimes/win-x64/native/sni.dll
+/Users/simfonia/Desktop/net/Practica1/Practica1/bin/Debug/net5.0/runtimes/win-x86/native/sni.dll
+/Users/simfonia/Desktop/net/Practica1/Practica1/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/simfonia/Desktop/net/Practica1/Practica1/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
