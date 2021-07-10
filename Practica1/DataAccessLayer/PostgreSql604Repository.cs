@@ -23,12 +23,12 @@ namespace Practica1.DataAccessLayer
             connection.Open();
 
             string sql = 
-                "INSERT INTO requests (id, applicantname, phonenumber, email, planvisitdate, planvisittime, personcountingroup, isconsentedforprocessingofpd, eventid) VALUES ";
-            sql += "(@a, @b, @c, @d, @f, @g, @h, @k, @l)";
+                "INSERT INTO requests (ApplicantName, PhoneNumber, Email, PlanVisitDate, PlanVisitTime, PersonCountInGroup, IsConsentedForProcessingOfPD, EventId) VALUES ";
+            sql += "(@b, @c, @d, @f, @g, @h, @k, @l)";
 
             NpgsqlCommand insert = new NpgsqlCommand(sql, connection);
             
-            insert.Parameters.Add("a", NpgsqlDbType.Integer);
+            //insert.Parameters.Add("a", NpgsqlDbType.Integer);
             insert.Parameters.Add("b", NpgsqlDbType.Text);
             insert.Parameters.Add("c", NpgsqlDbType.Text);
             insert.Parameters.Add("d", NpgsqlDbType.Text);
@@ -38,15 +38,15 @@ namespace Practica1.DataAccessLayer
             insert.Parameters.Add("k", NpgsqlDbType.Boolean);
             insert.Parameters.Add("l", NpgsqlDbType.Bigint);
 
-            insert.Parameters["a"].Value = request.Id;
-            insert.Parameters["b"].Value = request.ApplicantName;
-            insert.Parameters["c"].Value = request.PhoneNumber;
-            insert.Parameters["d"].Value = request.Email;
+            //insert.Parameters["a"].Value = request.Id;
+            insert.Parameters["b"].Value = request.ApplicantName is null ? DBNull.Value : request.ApplicantName;
+            insert.Parameters["c"].Value = request.PhoneNumber is null ? DBNull.Value : request.PhoneNumber;
+            insert.Parameters["d"].Value = request.Email is null ? DBNull.Value : request.Email;
             insert.Parameters["f"].Value = request.PlanVisitDate;
-            insert.Parameters["g"].Value = request.PlanVisitTime;
-            insert.Parameters["h"].Value = request.PersonCountInGroup;
+            insert.Parameters["g"].Value = request.PlanVisitTime is null ? DBNull.Value : request.PlanVisitTime;
+            insert.Parameters["h"].Value = request.PersonCountInGroup is null ? DBNull.Value : request.PersonCountInGroup;
             insert.Parameters["k"].Value = request.IsConsentedForProcessingOfPD;
-            insert.Parameters["l"].Value = request.EventId;
+            insert.Parameters["l"].Value = request.EventId is null ? DBNull.Value : request.EventId;
             
             insert.ExecuteNonQuery();
             connection.Close();
