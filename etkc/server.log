@@ -1,0 +1,61 @@
+2021-06-26 17:36:26.288 +05 [6800] LOG:  starting PostgreSQL 13.3 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-06-26 17:36:26.290 +05 [6800] LOG:  listening on IPv6 address "::1", port 5432
+2021-06-26 17:36:26.290 +05 [6800] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-06-26 17:36:26.291 +05 [6800] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-06-26 17:36:26.299 +05 [6801] LOG:  database system was shut down at 2021-06-25 20:11:46 +05
+2021-06-26 17:36:26.304 +05 [6800] LOG:  database system is ready to accept connections
+2021-06-26 17:36:53.709 +05 [6810] FATAL:  password authentication failed for user "postgres"
+2021-06-26 17:36:53.709 +05 [6810] DETAIL:  Role "postgres" does not exist.
+	Connection matched pg_hba.conf line 88: "local   all             all                                     md5"
+2021-06-26 17:36:53.709 +05 [6810] LOG:  could not send data to client: Broken pipe
+2021-06-26 17:36:59.308 +05 [6811] FATAL:  password authentication failed for user "postgres"
+2021-06-26 17:36:59.308 +05 [6811] DETAIL:  Role "postgres" does not exist.
+	Connection matched pg_hba.conf line 88: "local   all             all                                     md5"
+2021-06-26 17:37:42.752 +05 [6813] FATAL:  password authentication failed for user "simfonia"
+2021-06-26 17:37:42.752 +05 [6813] DETAIL:  User "simfonia" has no password assigned.
+	Connection matched pg_hba.conf line 88: "local   all             all                                     md5"
+2021-06-26 17:37:42.752 +05 [6813] LOG:  could not send data to client: Broken pipe
+2021-06-26 17:37:46.308 +05 [6814] FATAL:  password authentication failed for user "simfonia"
+2021-06-26 17:37:46.308 +05 [6814] DETAIL:  User "simfonia" has no password assigned.
+	Connection matched pg_hba.conf line 88: "local   all             all                                     md5"
+2021-06-26 17:37:52.856 +05 [6816] FATAL:  password authentication failed for user "simfonia"
+2021-06-26 17:37:52.856 +05 [6816] DETAIL:  User "simfonia" has no password assigned.
+	Connection matched pg_hba.conf line 88: "local   all             all                                     md5"
+2021-06-26 17:37:52.856 +05 [6816] LOG:  could not send data to client: Broken pipe
+2021-06-26 17:37:54.707 +05 [6817] FATAL:  password authentication failed for user "simfonia"
+2021-06-26 17:37:54.707 +05 [6817] DETAIL:  User "simfonia" has no password assigned.
+	Connection matched pg_hba.conf line 88: "local   all             all                                     md5"
+2021-06-26 17:38:02.426 +05 [6821] FATAL:  password authentication failed for user "root"
+2021-06-26 17:38:02.426 +05 [6821] DETAIL:  Role "root" does not exist.
+	Connection matched pg_hba.conf line 88: "local   all             all                                     md5"
+2021-06-26 17:38:02.427 +05 [6821] LOG:  could not send data to client: Broken pipe
+2021-06-26 17:38:04.499 +05 [6822] FATAL:  password authentication failed for user "root"
+2021-06-26 17:38:04.499 +05 [6822] DETAIL:  Role "root" does not exist.
+	Connection matched pg_hba.conf line 88: "local   all             all                                     md5"
+2021-06-26 17:39:40.473 +05 [7979] FATAL:  lock file "postmaster.pid" already exists
+2021-06-26 17:39:40.473 +05 [7979] HINT:  Is another postmaster (PID 6800) running in data directory "/usr/local/var/postgres"?
+2021-06-26 17:39:51.783 +05 [7982] FATAL:  lock file "postmaster.pid" already exists
+2021-06-26 17:39:51.783 +05 [7982] HINT:  Is another postmaster (PID 6800) running in data directory "/usr/local/var/postgres"?
+2021-06-26 17:39:56.300 +05 [6800] LOG:  received fast shutdown request
+2021-06-26 17:39:56.300 +05 [6800] LOG:  aborting any active transactions
+2021-06-26 17:39:56.304 +05 [6800] LOG:  background worker "logical replication launcher" (PID 6807) exited with exit code 1
+2021-06-26 17:39:56.304 +05 [6802] LOG:  shutting down
+2021-06-26 17:39:56.331 +05 [6800] LOG:  database system is shut down
+2021-06-26 17:39:59.330 +05 [7986] LOG:  starting PostgreSQL 13.3 on x86_64-apple-darwin19.6.0, compiled by Apple clang version 12.0.0 (clang-1200.0.32.29), 64-bit
+2021-06-26 17:39:59.332 +05 [7986] LOG:  listening on IPv6 address "::1", port 5432
+2021-06-26 17:39:59.332 +05 [7986] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-06-26 17:39:59.346 +05 [7986] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-06-26 17:39:59.370 +05 [7987] LOG:  database system was shut down at 2021-06-26 17:39:56 +05
+2021-06-26 17:39:59.394 +05 [7986] LOG:  database system is ready to accept connections
+2021-06-26 17:40:03.615 +05 [7997] FATAL:  password authentication failed for user "root"
+2021-06-26 17:40:03.615 +05 [7997] DETAIL:  Role "root" does not exist.
+	Connection matched pg_hba.conf line 88: "local   all             all                                     md5"
+2021-06-26 17:40:03.616 +05 [7997] LOG:  could not send data to client: Broken pipe
+2021-06-26 17:40:05.113 +05 [7998] FATAL:  password authentication failed for user "root"
+2021-06-26 17:40:05.113 +05 [7998] DETAIL:  Role "root" does not exist.
+	Connection matched pg_hba.conf line 88: "local   all             all                                     md5"
+2021-06-26 17:40:44.395 +05 [7986] LOG:  received fast shutdown request
+2021-06-26 17:40:44.397 +05 [7986] LOG:  aborting any active transactions
+2021-06-26 17:40:44.399 +05 [7986] LOG:  background worker "logical replication launcher" (PID 7993) exited with exit code 1
+2021-06-26 17:40:44.400 +05 [7988] LOG:  shutting down
+2021-06-26 17:40:44.428 +05 [7986] LOG:  database system is shut down
