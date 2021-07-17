@@ -10,6 +10,7 @@ namespace Practica1.DataAccessLayer
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            //SET YOUR VALUES HERE
             optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=etkc;Username=simfonia;Password=enke");
         }
     }
