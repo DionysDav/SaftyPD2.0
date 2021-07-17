@@ -1,0 +1,72 @@
+2021-07-11 15:36:12.548 GMT [7772] ���������:  ������� �� ���� ���������: 2021-07-11 15:36:08 GMT
+2021-07-11 15:36:12.557 GMT [3632] �����:  ������� ��� ������ �����������
+2021-07-11 15:36:12.622 GMT [8304] ���������:  ������� �� ������ ��������� �����������
+2021-07-11 15:36:12.672 GMT [15000] �����:  ������� ��� ������ �����������
+2021-07-11 16:12:25.013 GMT [6976] ���������:  �� ������� ������������� ��������� ���� ���������� �� "pg_stat_tmp/global.tmp" � "pg_stat_tmp/global.stat": Permission denied
+2021-07-11 16:12:29.667 GMT [3816] СООБЩЕНИЕ:  используется просроченная статистика вместо текущей, так как сборщик статистики не отвечает
+2021-07-11 16:12:29.667 GMT [3816] ОПЕРАТОР:  /*pga4dash*/
+	SELECT 'session_stats' AS chart_name, pg_catalog.row_to_json(t) AS chart_data
+	FROM (SELECT
+	   (SELECT count(*) FROM pg_catalog.pg_stat_activity WHERE datname = (SELECT datname FROM pg_catalog.pg_database WHERE oid = 32769)) AS "Total",
+	   (SELECT count(*) FROM pg_catalog.pg_stat_activity WHERE state = 'active' AND datname = (SELECT datname FROM pg_catalog.pg_database WHERE oid = 32769))  AS "Active",
+	   (SELECT count(*) FROM pg_catalog.pg_stat_activity WHERE state = 'idle' AND datname = (SELECT datname FROM pg_catalog.pg_database WHERE oid = 32769))  AS "Idle"
+	) t
+	UNION ALL
+	SELECT 'tps_stats' AS chart_name, pg_catalog.row_to_json(t) AS chart_data
+	FROM (SELECT
+	   (SELECT sum(xact_commit) + sum(xact_rollback) FROM pg_catalog.pg_stat_database WHERE datname = (SELECT datname FROM pg_catalog.pg_database WHERE oid = 32769)) AS "Transactions",
+	   (SELECT sum(xact_commit) FROM pg_catalog.pg_stat_database WHERE datname = (SELECT datname FROM pg_catalog.pg_database WHERE oid = 32769)) AS "Commits",
+	   (SELECT sum(xact_rollback) FROM pg_catalog.pg_stat_database WHERE datname = (SELECT datname FROM pg_catalog.pg_database WHERE oid = 32769)) AS "Rollbacks"
+	) t
+	UNION ALL
+	SELECT 'ti_stats' AS chart_name, pg_catalog.row_to_json(t) AS chart_data
+	FROM (SELECT
+	   (SELECT sum(tup_inserted) FROM pg_catalog.pg_stat_database WHERE datname = (SELECT datname FROM pg_catalog.pg_database WHERE oid = 32769)) AS "Inserts",
+	   (SELECT sum(tup_updated) FROM pg_catalog.pg_stat_database WHERE datname = (SELECT datname FROM pg_catalog.pg_database WHERE oid = 32769)) AS "Updates",
+	   (SELECT sum(tup_deleted) FROM pg_catalog.pg_stat_database WHERE datname = (SELECT datname FROM pg_catalog.pg_database WHERE oid = 32769)) AS "Deletes"
+	) t
+	UNION ALL
+	SELECT 'to_stats' AS chart_name, pg_catalog.row_to_json(t) AS chart_data
+	FROM (SELECT
+	   (SELECT sum(tup_fetched) FROM pg_catalog.pg_stat_database WHERE datname = (SELECT datname FROM pg_catalog.pg_database WHERE oid = 32769)) AS "Fetched",
+	   (SELECT sum(tup_returned) FROM pg_catalog.pg_stat_database WHERE datname = (SELECT datname FROM pg_catalog.pg_database WHERE oid = 32769)) AS "Returned"
+	) t
+	UNION ALL
+	SELECT 'bio_stats' AS chart_name, pg_catalog.row_to_json(t) AS chart_data
+	FROM (SELECT
+	   (SELECT sum(blks_read) FROM pg_catalog.pg_stat_database WHERE datname = (SELECT datname FROM pg_catalog.pg_database WHERE oid = 32769)) AS "Reads",
+	   (SELECT sum(blks_hit) FROM pg_catalog.pg_stat_database WHERE datname = (SELECT datname FROM pg_catalog.pg_database WHERE oid = 32769)) AS "Hits"
+	) t
+	
+2021-07-12 06:21:27.042 GMT [8476] ОШИБКА:  ошибка синтаксиса (примерное положение: "callcenter") (символ 33)
+2021-07-12 06:21:27.042 GMT [8476] ОПЕРАТОР:  CREATE ROLE callcenter PASSWORD callcenter;
+2021-07-12 06:30:32.689 GMT [2656] ОШИБКА:  ошибка синтаксиса (примерное положение: "GRAND") (символ 1)
+2021-07-12 06:30:32.689 GMT [2656] ОПЕРАТОР:  GRAND USAGE ON SCHEMA public TO callcenter;
+2021-07-12 06:32:25.345 GMT [2656] ОШИБКА:  ошибка синтаксиса (примерное положение: "IN") (символ 26)
+2021-07-12 06:32:25.345 GMT [2656] ОПЕРАТОР:  GRANT SELECT ON requests IN SCHEMA public TO callcenter;
+2021-07-12 06:36:22.968 GMT [2568] �����:  ��� ���� "callcenter" ���� ��������
+2021-07-12 06:37:04.425 GMT [12876] �����:  ��� ���� "callcenter" ���� ��������
+2021-07-12 06:38:42.564 GMT [9632] �����:  ��� ���� "callcenter" ���� ��������
+2021-07-12 06:39:37.706 GMT [6384] �����:  ��� ���� "callcenter" ���� ��������
+2021-07-12 06:41:44.504 GMT [2656] ОШИБКА:  роль "callcenter" нельзя удалить, так как есть зависящие от неё объекты
+2021-07-12 06:41:44.504 GMT [2656] ПОДРОБНОСТИ:  права доступа к объекту таблица requests
+	права доступа к объекту схема public
+	права доступа к объекту база данных db604
+2021-07-12 06:41:44.504 GMT [2656] ОПЕРАТОР:  DROP ROLE callcenter;
+2021-07-12 06:45:55.930 GMT [2656] ОШИБКА:  ошибка синтаксиса (примерное положение: "clear") (символ 1)
+2021-07-12 06:45:55.930 GMT [2656] ОПЕРАТОР:  clear
+	ALTER ROLE "callcenter" WITH LOGIN;
+2021-07-12 06:52:10.093 GMT [16556] ОШИБКА:  нет доступа к отношению requests
+2021-07-12 06:52:10.093 GMT [16556] ОПЕРАТОР:  TRUNCATE TABLE public.requests;
+2021-07-12 12:53:53.943 GMT [16556] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-12 12:53:53.946 GMT [13104] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-12 12:53:53.947 GMT [11448] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-12 12:53:54.011 GMT [13552] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-12 12:53:57.020 GMT [17324] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-12 12:53:57.020 GMT [7380] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
