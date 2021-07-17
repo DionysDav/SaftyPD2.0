@@ -1,0 +1,119 @@
+2021-07-10 11:34:30.107 GMT [7840] ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "requests_pkey"
+2021-07-10 11:34:30.107 GMT [7840] ОПЕРАТОР:  INSERT INTO requests (id, applicantname, phonenumber, email, planvisitdate, planvisittime, personcountingroup, isconsentedforprocessingofpd, eventid) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+2021-07-10 11:34:58.204 GMT [20292] ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "requests_pkey"
+2021-07-10 11:34:58.204 GMT [20292] ОПЕРАТОР:  INSERT INTO requests (id, applicantname, phonenumber, email, planvisitdate, planvisittime, personcountingroup, isconsentedforprocessingofpd, eventid) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+2021-07-10 11:35:12.232 GMT [3252] ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "requests_pkey"
+2021-07-10 11:35:12.232 GMT [3252] ОПЕРАТОР:  INSERT INTO requests (id, applicantname, phonenumber, email, planvisitdate, planvisittime, personcountingroup, isconsentedforprocessingofpd, eventid) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+2021-07-10 11:35:20.895 GMT [4136] ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "requests_pkey"
+2021-07-10 11:35:20.895 GMT [4136] ОПЕРАТОР:  INSERT INTO requests (id, applicantname, phonenumber, email, planvisitdate, planvisittime, personcountingroup, isconsentedforprocessingofpd, eventid) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+2021-07-10 11:35:27.425 GMT [5604] ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "requests_pkey"
+2021-07-10 11:35:27.425 GMT [5604] ОПЕРАТОР:  INSERT INTO requests (id, applicantname, phonenumber, email, planvisitdate, planvisittime, personcountingroup, isconsentedforprocessingofpd, eventid) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+2021-07-10 11:42:29.615 GMT [1528] ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "requests_pkey"
+2021-07-10 11:42:29.615 GMT [1528] ОПЕРАТОР:  INSERT INTO requests (id, applicantname, phonenumber, email, planvisitdate, planvisittime, personcountingroup, isconsentedforprocessingofpd, eventid) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+2021-07-10 11:43:56.048 GMT [17616] ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "requests_pkey"
+2021-07-10 11:43:56.048 GMT [17616] ОПЕРАТОР:  INSERT INTO requests (id, applicantname, phonenumber, email, planvisitdate, planvisittime, personcountingroup, isconsentedforprocessingofpd, eventid) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+2021-07-10 11:44:13.548 GMT [1520] ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "requests_pkey"
+2021-07-10 11:44:13.548 GMT [1520] ОПЕРАТОР:  INSERT INTO requests (id, applicantname, phonenumber, email, planvisitdate, planvisittime, personcountingroup, isconsentedforprocessingofpd, eventid) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+2021-07-10 11:44:34.332 GMT [2748] ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "requests_pkey"
+2021-07-10 11:44:34.332 GMT [2748] ОПЕРАТОР:  INSERT INTO requests (id, applicantname, phonenumber, email, planvisitdate, planvisittime, personcountingroup, isconsentedforprocessingofpd, eventid) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+2021-07-10 11:45:55.640 GMT [1724] ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "requests_pkey"
+2021-07-10 11:45:55.640 GMT [1724] ОПЕРАТОР:  INSERT INTO requests (id, applicantname, phonenumber, email, planvisitdate, planvisittime, personcountingroup, isconsentedforprocessingofpd, eventid) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+2021-07-10 11:53:07.616 GMT [10612] ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "requests_pkey"
+2021-07-10 11:53:07.616 GMT [10612] ОПЕРАТОР:  INSERT INTO requests (id, applicantname, phonenumber, email, planvisitdate, planvisittime, personcountingroup, isconsentedforprocessingofpd, eventid) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+2021-07-10 11:55:49.623 GMT [2464] ОШИБКА:  столбец "Id" в таблице "requests" не существует (символ 23)
+2021-07-10 11:55:49.623 GMT [2464] ОПЕРАТОР:  INSERT INTO Requests ("Id", "ApplicantName", "PlanVisitDate", "PersonCountInGroup", "IsConsentedForProcessingOfPD", "EventId") values (6, 'Михаил', '0001-01-10 12:12:12', 5, 'true', 2);
+2021-07-10 11:56:08.499 GMT [18580] �����:  ������������ "anast" �� ������ �������� ����������� (�� ������)
+2021-07-10 11:56:08.499 GMT [18580] �����������:  ���� "anast" �� ����������.
+	����������� ������������� ������ 82 � pg_hba.conf: "host    all             all             ::1/128                 md5"
+2021-07-10 11:56:11.254 GMT [18884] �����:  ������������ "anast" �� ������ �������� ����������� (�� ������)
+2021-07-10 11:56:11.254 GMT [18884] �����������:  ���� "anast" �� ����������.
+	����������� ������������� ������ 82 � pg_hba.conf: "host    all             all             ::1/128                 md5"
+2021-07-10 12:02:23.848 GMT [16836] ОШИБКА:  тип "serial" не существует
+2021-07-10 12:02:23.848 GMT [16836] ОПЕРАТОР:  ALTER TABLE public.requests
+	    ALTER COLUMN id TYPE serial;
+	ALTER TABLE public.requests
+	    ADD PRIMARY KEY (id);
+2021-07-10 12:02:37.300 GMT [16836] ОШИБКА:  тип "serial" не существует
+2021-07-10 12:02:37.300 GMT [16836] ОПЕРАТОР:  ALTER TABLE public.requests
+	    ALTER COLUMN id TYPE serial;
+	ALTER TABLE public.requests
+	    ADD PRIMARY KEY (id);
+2021-07-10 12:03:33.270 GMT [16836] ОШИБКА:  тип "serial" не существует
+2021-07-10 12:03:33.270 GMT [16836] ОПЕРАТОР:  ALTER TABLE public.requests
+	    ALTER COLUMN id TYPE serial;
+	ALTER TABLE public.requests
+	    ADD PRIMARY KEY (id);
+2021-07-10 12:08:18.910 GMT [10704] ОШИБКА:  ошибка синтаксиса (примерное положение: "primary") (символ 38)
+2021-07-10 12:08:18.910 GMT [10704] ОПЕРАТОР:  ALTER TABLE requests DROP CONSTRAINT primary key
+	;
+2021-07-10 12:08:47.537 GMT [10704] ОШИБКА:  ошибка синтаксиса (примерное положение: ";") (символ 37)
+2021-07-10 12:08:47.537 GMT [10704] ОПЕРАТОР:  ALTER TABLE requests DROP CONSTRAINT;
+2021-07-10 12:09:11.036 GMT [10704] ОШИБКА:  ограничение "id" в таблице "requests" не существует
+2021-07-10 12:09:11.036 GMT [10704] ОПЕРАТОР:  ALTER TABLE requests DROP CONSTRAINT id;
+2021-07-10 12:10:01.916 GMT [10704] ОШИБКА:  ошибка синтаксиса (примерное положение: "PRIMARY") (символ 38)
+2021-07-10 12:10:01.916 GMT [10704] ОПЕРАТОР:  ALTER TABLE requests DROP CONSTRAINT PRIMARY KEY;
+2021-07-10 12:10:29.856 GMT [10704] ОШИБКА:  ошибка синтаксиса (примерное положение: "primary") (символ 38)
+2021-07-10 12:10:29.856 GMT [10704] ОПЕРАТОР:  ALTER TABLE requests DROP CONSTRAINT primary key (id);
+2021-07-10 12:10:54.497 GMT [10704] ОШИБКА:  ограничение "id" в таблице "requests" не существует
+2021-07-10 12:10:54.497 GMT [10704] ОПЕРАТОР:  ALTER TABLE requests DROP CONSTRAINT id;
+2021-07-10 12:12:33.393 GMT [10704] ОШИБКА:  ошибка синтаксиса (примерное положение: ";") (символ 37)
+2021-07-10 12:12:33.393 GMT [10704] ОПЕРАТОР:  ALTER TABLE requests DROP CONSTRAINT;
+2021-07-10 12:14:06.338 GMT [10704] ОШИБКА:  ограничение "primary_key" в таблице "requests" не существует
+2021-07-10 12:14:06.338 GMT [10704] ОПЕРАТОР:  ALTER TABLE requests DROP CONSTRAINT primary_key;
+2021-07-10 12:14:11.340 GMT [10704] ОШИБКА:  ошибка синтаксиса (примерное положение: "(") (символ 49)
+2021-07-10 12:14:11.340 GMT [10704] ОПЕРАТОР:  ALTER TABLE requests DROP CONSTRAINT primary_key(id);
+2021-07-10 12:14:17.566 GMT [10704] ОШИБКА:  ошибка синтаксиса (примерное положение: "(") (символ 50)
+2021-07-10 12:14:17.566 GMT [10704] ОПЕРАТОР:  ALTER TABLE requests DROP CONSTRAINT primary_key (id);
+2021-07-10 12:14:20.527 GMT [10704] ОШИБКА:  ошибка синтаксиса (примерное положение: "primary") (символ 38)
+2021-07-10 12:14:20.527 GMT [10704] ОПЕРАТОР:  ALTER TABLE requests DROP CONSTRAINT primary key (id);
+2021-07-10 12:14:28.919 GMT [10704] ОШИБКА:  ошибка синтаксиса (примерное положение: "primary") (символ 38)
+2021-07-10 12:14:28.919 GMT [10704] ОПЕРАТОР:  ALTER TABLE requests DROP CONSTRAINT primary key;
+2021-07-10 12:17:16.354 GMT [10704] ОШИБКА:  отношение "sys.objects" не существует (символ 56)
+2021-07-10 12:17:16.354 GMT [10704] ОПЕРАТОР:  select OBJECT_NAME(OBJECT_ID) AS NameofConstraint
+	FROM sys.objects
+	where OBJECT_NAME(parent_object_id)='requests'
+	and type_desk LIKE '%CONSTRAINT';
+2021-07-10 12:18:34.168 GMT [10704] ОШИБКА:  ограничение "pk_id" в таблице "requests" не существует
+2021-07-10 12:18:34.168 GMT [10704] ОПЕРАТОР:  ALTER TABLE requests DROP CONSTRAINT PK_id;
+2021-07-10 12:18:57.996 GMT [10704] ОШИБКА:  ошибка синтаксиса (примерное положение: "'PK_id'") (символ 38)
+2021-07-10 12:18:57.996 GMT [10704] ОПЕРАТОР:  ALTER TABLE requests DROP CONSTRAINT 'PK_id';
+2021-07-10 12:19:04.351 GMT [10704] ОШИБКА:  ограничение "pk_id" в таблице "requests" не существует
+2021-07-10 12:19:04.351 GMT [10704] ОПЕРАТОР:  ALTER TABLE requests DROP CONSTRAINT PK_id;
+2021-07-10 12:24:53.770 GMT [17164] ���������:  �� ������� ������������� ��������� ���� ���������� �� "pg_stat_tmp/global.tmp" � "pg_stat_tmp/global.stat": Permission denied
+2021-07-10 12:42:29.871 GMT [17164] ���������:  �� ������� ������������� ��������� ���� ���������� �� "pg_stat_tmp/global.tmp" � "pg_stat_tmp/global.stat": Permission denied
+2021-07-10 13:02:26.537 GMT [880] �����:  ���� ������ "pd604" �� ����������
+2021-07-10 13:03:13.418 GMT [13964] ОШИБКА:  нет доступа к отношению requests
+2021-07-10 13:03:13.418 GMT [13964] ОПЕРАТОР:  SELECT t.*, CTID
+	FROM public.requests t
+	LIMIT 501
+2021-07-10 14:06:30.882 GMT [17164] ���������:  �� ������� ������������� ��������� ���� ���������� �� "pg_stat_tmp/global.tmp" � "pg_stat_tmp/global.stat": Permission denied
+2021-07-10 14:47:19.705 GMT [2584] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-10 15:03:57.379 GMT [1624] ОШИБКА:  нулевое значение в столбце "id" нарушает ограничение NOT NULL
+2021-07-10 15:03:57.379 GMT [1624] ПОДРОБНОСТИ:  Ошибочная строка содержит (applicantname, phonenumber, email, planvisitdate, planvisittime, personcountingroup, isconsentedforprocessingofpd, eventid, id) = (null, null, null, 0001-01-01 00:00:00, null, 0, f, 0, null).
+2021-07-10 15:03:57.379 GMT [1624] ОПЕРАТОР:  INSERT INTO requests (Id, ApplicantName, PhoneNumber, Email, PlanVisitDate, PlanVisitTime, PersonCountInGroup, IsConsentedForProcessingOfPD, EventId) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+2021-07-10 15:17:31.996 GMT [16836] ОШИБКА:  столбец "id" отношения "requests" уже имеет значение по умолчанию
+2021-07-10 15:17:31.996 GMT [16836] ОПЕРАТОР:  ALTER TABLE public.requests
+	    ALTER COLUMN id ADD GENERATED ALWAYS AS IDENTITY;
+2021-07-10 15:26:11.789 GMT [2640] ОШИБКА:  вставить данные в столбец "id" нельзя
+2021-07-10 15:26:11.789 GMT [2640] ПОДРОБНОСТИ:  Столбец "id" является столбцом идентификации со свойством GENERATED ALWAYS.
+2021-07-10 15:26:11.789 GMT [2640] ПОДСКАЗКА:  Для переопределения укажите OVERRIDING SYSTEM VALUE.
+2021-07-10 15:26:11.789 GMT [2640] ОПЕРАТОР:  INSERT INTO requests (Id, ApplicantName, PhoneNumber, Email, PlanVisitDate, PlanVisitTime, PersonCountInGroup, IsConsentedForProcessingOfPD, EventId) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+2021-07-10 15:27:24.212 GMT [17272] ОШИБКА:  вставить данные в столбец "id" нельзя
+2021-07-10 15:27:24.212 GMT [17272] ПОДРОБНОСТИ:  Столбец "id" является столбцом идентификации со свойством GENERATED ALWAYS.
+2021-07-10 15:27:24.212 GMT [17272] ПОДСКАЗКА:  Для переопределения укажите OVERRIDING SYSTEM VALUE.
+2021-07-10 15:27:24.212 GMT [17272] ОПЕРАТОР:  INSERT INTO requests (Id, ApplicantName, PhoneNumber, Email, PlanVisitDate, PlanVisitTime, PersonCountInGroup, IsConsentedForProcessingOfPD, EventId) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+2021-07-10 15:36:01.181 GMT [20304] ОШИБКА:  вставить данные в столбец "id" нельзя
+2021-07-10 15:36:01.181 GMT [20304] ПОДРОБНОСТИ:  Столбец "id" является столбцом идентификации со свойством GENERATED ALWAYS.
+2021-07-10 15:36:01.181 GMT [20304] ПОДСКАЗКА:  Для переопределения укажите OVERRIDING SYSTEM VALUE.
+2021-07-10 15:36:01.181 GMT [20304] ОПЕРАТОР:  INSERT INTO requests (Id, ApplicantName, PhoneNumber, Email, PlanVisitDate, PlanVisitTime, PersonCountInGroup, IsConsentedForProcessingOfPD, EventId) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+2021-07-10 15:52:30.665 GMT [17164] ���������:  �� ������� ������������� ��������� ���� ���������� �� "pg_stat_tmp/global.tmp" � "pg_stat_tmp/global.stat": Permission denied
+2021-07-10 15:59:55.235 GMT [18152] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-10 16:00:57.604 GMT [18052] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-10 16:01:02.391 GMT [17164] ���������:  �� ������� ������������� ��������� ���� ���������� �� "pg_stat_tmp/global.tmp" � "pg_stat_tmp/global.stat": Permission denied
+2021-07-10 16:01:57.777 GMT [4248] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-10 16:02:37.198 GMT [15472] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	

@@ -1,0 +1,36 @@
+2021-07-04 12:00:37.177 GMT [10944] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-04 12:01:36.527 GMT [17548] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-04 12:02:04.804 GMT [19816] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-04 12:03:16.621 GMT [23928] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-04 12:03:16.622 GMT [5272] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-04 13:21:05.075 GMT [8524] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-04 13:22:26.380 GMT [864] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-04 13:23:35.909 GMT [868] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-04 15:01:33.222 GMT [21972] �����:  ������������ "anast" �� ������ �������� ����������� (�� ������)
+2021-07-04 15:01:33.222 GMT [21972] �����������:  ���� "anast" �� ����������.
+	����������� ������������� ������ 82 � pg_hba.conf: "host    all             all             ::1/128                 md5"
+2021-07-04 15:01:42.312 GMT [18420] �����:  ������������ "anast" �� ������ �������� ����������� (�� ������)
+2021-07-04 15:01:42.312 GMT [18420] �����������:  ���� "anast" �� ����������.
+	����������� ������������� ������ 82 � pg_hba.conf: "host    all             all             ::1/128                 md5"
+2021-07-04 18:49:31.722 GMT [12860] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-04 18:50:14.738 GMT [21180] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-04 19:06:09.356 GMT [16928] ОШИБКА:  столбец p.UrlImage не существует (символ 74)
+2021-07-04 19:06:09.356 GMT [16928] ОПЕРАТОР:  SELECT p."ID", p."Category", p."NameOfProduct", p."Price", p."Quantity", p."UrlImage"
+	FROM "Products" AS p
+	LIMIT $1 OFFSET $2
+2021-07-04 19:06:31.570 GMT [16928] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-04 19:08:39.284 GMT [25160] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
+2021-07-04 19:09:28.104 GMT [16504] СООБЩЕНИЕ:  не удалось получить данные от клиента: An existing connection was forcibly closed by the remote host.
+	
