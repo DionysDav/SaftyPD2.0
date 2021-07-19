@@ -4161,24 +4161,33 @@
     ]
   },
   "packageFolders": {
-    "/Users/simfonia/.nuget/packages/": {}
+    "C:\\Users\\anast\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/simfonia/Desktop/net/Practica1/Practica1/Practica1.csproj",
+      "projectUniqueName": "D:\\c#Git\\safetyPD20\\SaftyPD2.0\\Practica1\\Practica1.csproj",
       "projectName": "Practica1",
-      "projectPath": "/Users/simfonia/Desktop/net/Practica1/Practica1/Practica1.csproj",
-      "packagesPath": "/Users/simfonia/.nuget/packages/",
-      "outputPath": "/Users/simfonia/Desktop/net/Practica1/Practica1/obj/",
+      "projectPath": "D:\\c#Git\\safetyPD20\\SaftyPD2.0\\Practica1\\Practica1.csproj",
+      "packagesPath": "C:\\Users\\anast\\.nuget\\packages\\",
+      "outputPath": "D:\\c#Git\\safetyPD20\\SaftyPD2.0\\Practica1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/simfonia/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\anast\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4230,7 +4239,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
