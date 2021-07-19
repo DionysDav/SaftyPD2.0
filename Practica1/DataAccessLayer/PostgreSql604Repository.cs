@@ -14,7 +14,7 @@ namespace Practica1.DataAccessLayer
 
         public PostgreSql604Repository()
         {
-            //SET YOUR VALUES HERE
+            //SET YOUR VALUES HERE (CHANGE HOST AND PORT)
             string ConnectionString = "Server=192.168.88.3;Port=5432;User Id=foretkc;Password=123ewq;Database=db604;";
             connection = new NpgsqlConnection(ConnectionString);
         }
